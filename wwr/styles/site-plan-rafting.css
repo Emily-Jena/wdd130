@@ -1,3 +1,5 @@
+@import url(https://coolors.co/b7d3f2-afafdc-8a84e2-84afe6-79beee);
+
 :root {
 --primary-color: #8B008B;
 --secondary-color: #000080;
@@ -12,8 +14,6 @@
 --nav-hover-link-color: #00008b;
 --nav-hover-background-color: #FFF5FF;
 }
-
-@import url(https://coolors.co/b7d3f2-afafdc-8a84e2-84afe6-79beee);
 
 body {
     font-family: var(--paragraph-font);
@@ -47,7 +47,7 @@ text-decoration: none;
 padding: 1rem;
 }
 
-.nav a:link, .nav a :visited {
+.nav a:link, .nav a:visited {
 color: var(--nav-link-color)
 }
 
