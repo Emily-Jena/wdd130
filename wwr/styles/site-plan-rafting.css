@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=SourceSerif4&family=Dosis&display=swap');
 
 :root {
 --primary-color: #8B008B;
@@ -6,8 +6,8 @@
 --accent1-color: #ADE0C0;
 --accent2-color: #FFFF00;
 
---heading-font: 'Times New Roman', Times, serif;
---paragraph-font: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, serif;
+--heading-font: 'Source Serif 4';
+--paragraph-font: 'Dosis', serif;
 
 --nav-background-color: #AFEEEE;
 --nav-link-color: #00008B;
