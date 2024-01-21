@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
-
 :root {
 --primary-color: #8B008B;
 --secondary-color: #000080;
@@ -11,9 +9,11 @@
 
 --nav-background-color: #AFEEEE;
 --nav-link-color: #00008B;
---nav-hover-link-color: ##000080;
+--nav-hover-link-color: #00008b;
 --nav-hover-background-color: #FFF5FF;
 }
+
+@import url(https://coolors.co/b7d3f2-afafdc-8a84e2-84afe6-79beee);
 
 body {
     font-family: var(--paragraph-font);
@@ -34,24 +34,24 @@ p {
     padding: 20px;
 }
 
-nav {
+.nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
 }
 
-nav a {
+.nav a {
 display: block;
 color: var(--nav-link-color);
 text-decoration: none;
 padding: 1rem;
 }
 
-nav a:link, nav a :visited {
+.nav a:link, nav a :visited {
 color: var(--nav-link-color)
 }
 
-nav a:hover {
+.nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
 }
