@@ -47,10 +47,15 @@ aside {
     text-align: center;
 }
 
+aside h2 {
+   width: 20%;
+   height: auto;
+    position: relative;
+}
+
 aside img {
 width: 200px;
 height: auto;
-position: relative;
 }
 
 main img {
