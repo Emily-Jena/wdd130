@@ -45,6 +45,7 @@ aside {
     background-color: #eee;
     color: #333;*/ /*depulicate in the .box selector.*/
     text-align: center;
+    position: relative;
 }
 
 aside h2 {
