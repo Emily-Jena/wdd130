@@ -47,10 +47,10 @@
         padding: 1em;
     }
 
-    .hero img {
+    .hero  img {       
         display: block;
         width: 100%;
-        height: auto;
+        height: auto; 
     }
 
     header {
@@ -63,4 +63,4 @@
         margin-left: 1em;
    }
 
-   
+
