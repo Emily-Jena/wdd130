@@ -3,41 +3,64 @@
 :root {
     --primary-color: #8B008B;
     --secondary-color: #000080;
-    --accent1-color: #ADE0C0;
-    --accent2-color: #FFFF00;
-    
-    --heading-font: 'Source Serif 4';
-    --paragraph-font: 'Dosis', serif;
-    
-    --nav-background-color: #AFEEEE;
-    --nav-link-color: #00008B;
-    --nav-hover-link-color: #00008b;
-    --nav-hover-background-color: #FFF5FF;
+    --text-color: #343a40;
+    --background-color: #fff;
     }
 
-   .hero {
-    position: relative;
-   } 
+    h1, h2, h3, h4, h5, h6 {
+        font-weight: 700;
+        color: var(--primary-color);
+        font-family: var(--heading-font);
+    }
 
-   h1 {
-    position: absolute;
+    body {
+        font-family: var(--paragraph-font);
+        color: var(--text-color);
+        background-color: var(--background-color);
+        max-width: 960px;
+        margin: auto;
+    }
+
+    p {
+        padding: 1px;
+        font-size: 16px;
+        margin-bottom: 1.5rem;
+        line-height: 1.5;
+    }
+
+    a.sociallink {
+        text-decoration: none; /*removes underlines*/
+        color: var(--secondary-color);
+    }
+
+    .hero {
+        position: relative;
+        background-image: url("hero.PNG");
+        background-size: cover;
+        background-position: center; 
+    }
+
+    .hero h1, .hero article {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        padding: 1em;
+    }
+
+    .hero img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    header {
+        background-color: var(--accent1-color);
+        padding: 5%;
+    }
+
+   .hero article img {
+        float: right;
+        margin-left: 1em;
    }
 
-   article {
-    position: absolute;
-   }
- 
-   article img {
-    float: right;
-
-   }
-
-   .hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-   }
-
-   p {
-    padding: 20%;
-   }
+   
