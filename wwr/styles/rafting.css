@@ -182,6 +182,12 @@ figure {
     margin: auto;
   }
 
+  h1 {
+    display: grid;
+    grid-column-start: 1;
+    align-self: center;
+  }
+
   figcaption {
     background-color: #222;
     color: #fff;
