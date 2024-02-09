@@ -216,3 +216,57 @@ figure {
         justify-content: center;
         
     }
+
+    form {
+        padding: 20px;
+        margin: 0 auto;
+        max-width: 75%;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+        margin-top: 10px;
+    }
+
+      
+  input[type="text"], textarea, input[type="email"]  {
+    width: 100%;
+    padding: 10px; 
+    border: 1px solid #f0f0f0;
+  }
+
+  fieldset {
+    border: 1px solid #f0f0f0;
+    margin-bottom: 5px;
+    padding: 10px;
+  }
+
+  legend {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  input[type="radio"] {
+    margin-right: 10px;
+  }
+
+  label[for="subscribe"] {
+    display: inline-block; /* Checkbox and message aligns */
+    margin-bottom: 5px;
+  }
+
+  button {
+    background-color: #007bf0;
+    color: #fff;
+    border: none;
+    padding: 10px 10px;   
+    float: right;
+  }
+
+  .img_emp {
+    display: block;
+    align-items: center;
+    float:right;
+    margin-right: 50px;     
+  }
