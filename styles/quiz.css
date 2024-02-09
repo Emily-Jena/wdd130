@@ -20,9 +20,15 @@ form {
     margin-bottom: 10px; 
   }
   
-  input, textarea, select {
+  input, textarea  {
     width: 90%;
     height: 0 auto;
+    padding: 10px; 
+    border: 1px solid #f0f0f0;
+  }
+  
+  select {
+    width: 90%;
     padding: 10px; 
     border: 1px solid #f0f0f0;
   }
