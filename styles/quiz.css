@@ -12,7 +12,7 @@ form {
   }
   
   legend {
-    font-size: 1.5em; /
+    font-size: 1.5em; 
   }
   
   label {
@@ -20,22 +20,9 @@ form {
     margin-bottom: 10px; 
   }
   
-  input[type="text"], input[type="number"] {
+  input, textarea, select {
     width: 90%;
     height: 0 auto;
-    padding: 10px; 
-    border: 1px solid #f0f0f0;
-  }
-  
-  textarea {
-    width: 90%;
-    height: 0 auto; 
-    padding: 10px; 
-    border: 1px solid #f0f0f0;
-  }
-  
-  select {
-    width: 90%;
     padding: 10px; 
     border: 1px solid #f0f0f0;
   }
@@ -46,6 +33,5 @@ form {
     border: none; 
     padding: 10px 20px; 
     cursor: pointer; /* Indicate the button is clickable */
-    
   }
   
