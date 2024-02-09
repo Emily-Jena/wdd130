@@ -265,7 +265,7 @@ figure {
   }
 
   .img_emp {
-    display: block;
+    display: grid;
     align-items: center;
     float:right;
     margin-right: 15px;     
