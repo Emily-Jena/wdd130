@@ -252,7 +252,7 @@ figure {
   }
 
   label[for="subscribe"] {
-    display: inline-block; /* Checkbox and message aligns */
+    display: block; /* Checkbox and message aligns */
     margin-bottom: 5px;
   }
 
