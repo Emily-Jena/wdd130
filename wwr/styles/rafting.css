@@ -270,3 +270,19 @@ figure {
     float:right;
     margin-right: 15px;     
   }
+
+  .grid_container {
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: auto;
+  }
+
+.trips-1, .trips-3 {
+  display: grid;
+  padding-right: 25px; 
+}
+
+.trips-2,.trips-4 {
+  display: grid;
+  padding-left: 25px;  
+}
