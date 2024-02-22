@@ -217,8 +217,8 @@ figure {
         
     }
 
-    form {
-        padding: 20px;
+  form {
+        padding: 50px;
         margin: 0 auto;
         max-width: 75%;
     }
@@ -284,5 +284,13 @@ figure {
 
 .trips-2,.trips-4 {
   display: grid;
-  padding-left: 25px;  
+  padding-left: 25px; 
+}
+
+.trip_button {
+  background-color: #eee;
+  color: #fff;
+  border: none;
+  padding: 10px 10px;   
+  float: right;
 }
